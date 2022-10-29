@@ -4,7 +4,7 @@ My next.js portfolio.
 
 ## Bootsrtrapping this app
 
-Bootstrapping instructions can be found in the generated document [here](./rulof_s_potfolio/README.md) or right down here 👇
+Bootstrapping instructions can be found in the generated document [here](./rulof_s_portfolio/README.md) or right down here 👇
 
 <details open>
 <summary>Copied bootstrapping instructions</summary>
