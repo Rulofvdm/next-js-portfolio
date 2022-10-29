@@ -12,6 +12,8 @@ export default function Home() {
 
       <header className={styles.header}>
         <Image
+        width={40}
+        height={40}
         alt=''
         draggable='false'
         className={styles.logo}
@@ -25,6 +27,8 @@ export default function Home() {
         <div className={styles.right_align}>
           <a href='https://www.linkedin.com/in/rulof-vd-merwe/'>
             <Image
+            width={40}
+            height={40}
             alt=''
             className={styles.icon}
             src='/linkedin_icon.png'>

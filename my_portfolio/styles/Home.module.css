@@ -52,7 +52,7 @@
   user-select: none;
   margin: 0;
   line-height: 1.15;
-  font-size: 3rem;
+  font-size: 4vw;
   justify-content: center;
   align-items: center;
 }
@@ -118,22 +118,24 @@
 .logo {
   user-select: none;
   border:1px solid #666;    
-  height:3em;
-  width:3em;
+  height:3.2vw;
+  width:3.2vw;
   padding:5px;
   overflow: visible;
   border-radius: 10px;
+  filter: grayscale(50%);
 }
 
 .icon{
   user-select: none;
   border:1px solid #666;    
-  height:3em;
-  width:3em;
+  height:3.2vw;
+  width:3.2vw;
   padding:5px;
   overflow: visible;
   border-radius: 10px;
   margin-left: 20px;
+  filter: grayscale(50%);
 }
 
 @media (max-width: 600px) {
