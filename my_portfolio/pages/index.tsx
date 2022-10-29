@@ -11,11 +11,12 @@ export default function Home() {
       </Head>
 
       <header className={styles.header}>
-        <img 
+        <Image
+        alt=''
         draggable='false'
         className={styles.logo}
         src='/professional_logo.png'>
-        </img>
+        </Image>
         
         <h1 className={styles.title}>
           <span><span className={styles.tilde_highlight}>~</span> Hello World!_</span>
@@ -23,10 +24,11 @@ export default function Home() {
 
         <div className={styles.right_align}>
           <a href='https://www.linkedin.com/in/rulof-vd-merwe/'>
-            <img
+            <Image
+            alt=''
             className={styles.icon}
             src='/linkedin_icon.png'>
-            </img>
+            </Image>
           </a>
         </div>
       </header>
