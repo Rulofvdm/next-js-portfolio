@@ -1,5 +1,6 @@
 .container {
-  padding: 0 2rem;
+  padding: 0 20%;
+  background-image: url("../public/background.png");
 }
 
 .main {
@@ -21,6 +22,23 @@
   align-items: center;
 }
 
+.right_align{
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  flex: 1;
+  padding: 0.8rem 2%;
+  border-bottom: 1px solid #eaeaea;
+  justify-content: center;
+  align-items: center;
+}
+
 .footer a {
   display: flex;
   justify-content: center;
@@ -28,21 +46,15 @@
   flex-grow: 1;
 }
 
-.title a {
-  color: #0070f3;
-  text-decoration: none;
-}
-
-.title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: underline;
-}
-
 .title {
+  display: flex;
+  flex: 1;
+  user-select: none;
   margin: 0;
   line-height: 1.15;
-  font-size: 4rem;
+  font-size: 3rem;
+  justify-content: center;
+  align-items: center;
 }
 
 .title,
@@ -61,7 +73,7 @@
   border-radius: 5px;
   padding: 0.75rem;
   font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+  font-family: Ubuntu Mono, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
     Bitstream Vera Sans Mono, Courier New, monospace;
 }
 
@@ -88,8 +100,8 @@
 .card:hover,
 .card:focus,
 .card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+  color: lightcoral;
+  border-color: lightcoral;
 }
 
 .card h2 {
@@ -104,8 +116,24 @@
 }
 
 .logo {
-  height: 1em;
-  margin-left: 0.5rem;
+  user-select: none;
+  border:1px solid #666;    
+  height:3em;
+  width:3em;
+  padding:5px;
+  overflow: visible;
+  border-radius: 10px;
+}
+
+.icon{
+  user-select: none;
+  border:1px solid #666;    
+  height:3em;
+  width:3em;
+  padding:5px;
+  overflow: visible;
+  border-radius: 10px;
+  margin-left: 20px;
 }
 
 @media (max-width: 600px) {
@@ -117,13 +145,20 @@
 
 @media (prefers-color-scheme: dark) {
   .card,
-  .footer {
-    border-color: #222;
+  .footer,
+  .header,
+  .logo,
+  .icon{
+    border-color: lightcoral;
   }
   .code {
     background: #111;
   }
-  .logo img {
+  /* .logo img {
     filter: invert(1);
-  }
+  } */
+}
+
+.tilde_highlight{
+  color:#61d6d6
 }
