@@ -37,59 +37,42 @@ export default function Home() {
         </div>
       </header>
 
-      <main className={styles.main}>
-      <Image
-      className={styles.shell_background}
-      src="/lighter_background.png"
-      alt=''
-      width={40}
-      height={40}>
+      <main>
+        <span className={styles.main}>
+        <span><strong className={styles.tilde_highlight}>~ </strong>./introduction.sh</span>
+        <span>
+        Hello, my name is Rulof.<br/>
+        I'm a Software Engineer based In Somerset West.<br/><br/>
+        
+        "I&apos;d say your interests are... programming and tech.<br/>
+        Uhm, yeah... we don't really talk about anything else." - Anonymous Roomate<br/><br/>
 
-      </Image>
-        {/* <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
+        My dream job would be a software architecture of a big project.<br/><br/>
+        
+        Like any aspiring software wizard, I aspire to always find my answer 
+        with the first google, 
+        be able to answer my collgue&apos;s question and push my ticket before 1, 
+        just in time for lunch.<br/><br/>
 
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.tsx</code>
-        </p>
+        As an aspiring human, I would like my work to be a nurturing and challenging
+        environment to help me be the best software engineer I can be.<br/><br/>
 
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
+        I hope that SOVTECH can provide this environment,<br/>
+        and that together we get to build great software!<br/><br/>
+        
+        <span><strong className={styles.tilde_highlight}>~ </strong><span className={styles.yellow_highlight}>git</span> add .</span><br/>
+        <span><strong className={styles.tilde_highlight}>~ </strong><span className={styles.yellow_highlight}>git</span> commit <span className={styles.darker_grey_highlight}>-m </span>
+        <span className={styles.blue_highlight}>"Hope to see you at the interview!"</span></span><br/>
+        <span><strong className={styles.tilde_highlight}>~ </strong><span className={styles.yellow_highlight}>git</span> push</span><br/>
+        <span><strong className={styles.tilde_highlight}>~ </strong>exit</span>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Learn &rarr;</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
-            className={styles.card}
-          >
-            <h2>Examples &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.card}
-          >
-            <h2>Deploy &rarr;</h2>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
-        </div> */}
+        </span>
+        
+        </span>
       </main>
 
       <footer className={styles.footer}>
-        howdy 🤠 (this is also a placeholder)
+      ✨ Welcome to my footer✨
       </footer>
     </div>
   )
