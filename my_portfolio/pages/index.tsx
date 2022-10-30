@@ -51,7 +51,7 @@ export default function Home() {
         
         Like any aspiring software wizard, I aspire to always find my answer <br/>
         with the first google, 
-        be able to answer my collgue&apos;s question and push my ticket before 1, 
+        be able to answer my collgue&apos;s question and push my ticket before 1, <br/>
         just in time for lunch.<br/><br/>
 
         As an aspiring human, I would like my work to be a nurturing and challenging<br/>
