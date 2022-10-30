@@ -42,10 +42,10 @@ export default function Home() {
         <span><strong className={styles.tilde_highlight}>~ </strong>./introduction.sh</span>
         <span>
         Hello, my name is Rulof.<br/>
-        I'm a Software Engineer based In Somerset West.<br/><br/>
+        I&apos;m a Software Engineer based In Somerset West.<br/><br/>
         
         "I&apos;d say your interests are... programming and tech.<br/>
-        Uhm, yeah... we don't really talk about anything else." - Anonymous Roomate<br/><br/>
+        Uhm, yeah... we don&apos;t really talk about anything else." - Anonymous Roomate<br/><br/>
 
         My dream job would be a software architecture of a big project.<br/><br/>
         
@@ -59,7 +59,7 @@ export default function Home() {
 
         I hope that SOVTECH can provide this environment,<br/>
         and that together we get to build great software!<br/><br/>
-        
+
         <span><strong className={styles.tilde_highlight}>~ </strong><span className={styles.yellow_highlight}>git</span> add .</span><br/>
         <span><strong className={styles.tilde_highlight}>~ </strong><span className={styles.yellow_highlight}>git</span> commit <span className={styles.darker_grey_highlight}>-m </span>
         <span className={styles.blue_highlight}>"Hope to see you at the interview!"</span></span><br/>
