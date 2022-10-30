@@ -40,7 +40,7 @@ export default function Home() {
       <main className={styles.main}>
       <Image
       className={styles.shell_background}
-      src="/../public/lighter_background.png"
+      src="/lighter_background.png"
       alt=''
       width={40}
       height={40}>
