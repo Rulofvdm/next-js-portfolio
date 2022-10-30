@@ -44,8 +44,8 @@ export default function Home() {
         Hello, my name is Rulof.<br/>
         I&apos;m a Software Engineer based In Somerset West.<br/><br/>
         
-        "I&apos;d say your interests are... programming and tech.<br/>
-        Uhm, yeah... we don&apos;t really talk about anything else." - Anonymous Roomate<br/><br/>
+        &quot;I&apos;d say your interests are... programming and tech.<br/>
+        Uhm, yeah... we don&apos;t really talk about anything else.&quot; - Anonymous Roomate<br/><br/>
 
         My dream job would be a software architecture of a big project.<br/><br/>
         
@@ -62,7 +62,7 @@ export default function Home() {
 
         <span><strong className={styles.tilde_highlight}>~ </strong><span className={styles.yellow_highlight}>git</span> add .</span><br/>
         <span><strong className={styles.tilde_highlight}>~ </strong><span className={styles.yellow_highlight}>git</span> commit <span className={styles.darker_grey_highlight}>-m </span>
-        <span className={styles.blue_highlight}>"Hope to see you at the interview!"</span></span><br/>
+        <span className={styles.blue_highlight}>&quot;Hope to see you at the interview!&quot;</span></span><br/>
         <span><strong className={styles.tilde_highlight}>~ </strong><span className={styles.yellow_highlight}>git</span> push</span><br/>
         <span><strong className={styles.tilde_highlight}>~ </strong>exit</span>
 
