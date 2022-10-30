@@ -38,8 +38,14 @@ export default function Home() {
       </header>
 
       <main className={styles.main}>
-      ✨hey there✨
-      (this is a placeholder) 
+      <Image
+      className={styles.shell_background}
+      src="/../public/lighter_background.png"
+      alt=''
+      width={40}
+      height={40}>
+
+      </Image>
         {/* <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
